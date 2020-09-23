@@ -1,8 +1,17 @@
 .Title { color:rgb(17, 65, 87);
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
-
+.Title1 { color:rgb(37, 37, 37);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
 .Text {
     font-family: Georgia, 'Times New Roman', Times, serif
 }
 
+.List{}
+
+.CustomDiv {
+  border: 5px outset black;
+  background-color: lightblue;
+  text-align: center;
+}
