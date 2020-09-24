@@ -3,22 +3,28 @@
     }
 .Title1 { color:rgb(37, 37, 37);
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 200%;
         }
 .Text {
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.List{ }
+.List{
+    font-size: large;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+
+ }
 
 .listdiv{
-    border: none;   
-    text-align: left;    
-    padding-left: 300px;
+    text-align: left;
+    padding-left: 880px;
+    font-size: large;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
 }
 
 .CustomDiv {
-  border: 5px outset black;
-  background-color: lightblue;
+  border: none;
+  background-color: none;
   text-align: center;
 }
 .button{
@@ -33,8 +39,9 @@
   background-color: lightblue;
 }
 .body1{
-    background-color: rgb(208, 228, 235);
+    background-image: url("../Images/809524.jpg");
+}
 
-
+.body2{
 
 }
