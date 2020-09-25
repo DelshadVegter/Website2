@@ -8,6 +8,10 @@
 .Text {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.Text1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
 
 .List{
     font-size: large;
@@ -17,7 +21,7 @@
 
 .listdiv{
     text-align: left;
-    padding-left: 880px;
+    padding-left: 850px;
     font-size: large;
     font-family:  Georgia, 'Times New Roman', Times, serif;
 }
@@ -26,22 +30,40 @@
   border: none;
   background-color: none;
   text-align: center;
+
+}
+.CustomDiv2 {
+    border: 5px solid black;
+    text-align: center;
+    background-color: lightblue;
 }
 .button{
-  border: black;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  background-color: lightblue;
+    border: black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: lightblue;
+}
+/* een deel van de code van deze buttons is van w3schools */
+.button2{
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
 }
 .body1{
     background-image: url("../Images/809524.jpg");
 }
+.image{
+    scale: 10%;
 
-.body2{
 
 }
