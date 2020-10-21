@@ -17,7 +17,7 @@
 }
 #textcontainer{
     width: 100%;
-    height: 90%;
+    height: 80%;
     margin-bottom: 0;
     text-align: center;
 }
@@ -26,7 +26,7 @@ body{
     width: 100%;
     height: 100%;
     margin-bottom:0;
-    margin-top:0px;
+    margin-top:0;
 }
 .text1{
     text-align:center;
@@ -35,16 +35,18 @@ body{
 .body1{
     background-image: url("../Images/groenigijziggroenland.jpg");
     margin-top:0px;
+    margin-bottom:0;
 }
-a{ 
+.button{ 
     color:darkblue;
     text-decoration:none;
     background-color:lightblue;
     padding: 5px;
     border-bottom: red 5px solid;
     font-size: 30px;
+    border-radius:5px;
 }
-a:hover{ 
+.button:hover{ 
     color:lightblue;
     text-decoration:none;
     background-color:darkblue;
@@ -55,4 +57,13 @@ a:hover{
     padding:5px;
     text-decoration: none;
     display: inline-block;
+    margin-bottom:15%;
+}
+#homebutton{ 
+    height:50%;
+    background:lightblue;
+    margin-bottom:-35%;
+    border-radius:20px;
+    border:3px solid black;
+    padding:5px;
 }
