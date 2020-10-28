@@ -59,6 +59,10 @@ body{
     display: inline-block;
     margin-bottom:15%;
 }
+.li2{
+    text-decoration: none;
+    display: inline-block;
+}
 #homebutton{ 
     height:50%;
     background:lightblue;
@@ -75,4 +79,15 @@ body{
     border-radius:20px;
     border:3px solid black;
     padding:5px;
+}
+#centerimage{
+    margin-left:auto;
+    width: 40%;
+
+}
+#centerimage2{
+    margin-left:auto;  
+    width:70%
+
+
 }
