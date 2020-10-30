@@ -54,11 +54,11 @@
     margin-bottom:10%;
 
 }
-body{
-    width: 100%;
-    height: 100%;
-    margin-bottom:0;
-    margin-top:0;
+body {
+background-image: url("../Images/groenigijziggroenland.jpg");
+   margin:0;
+   padding:0;
+   height:100%;
 }
 .text1{
     text-align:center;
@@ -69,12 +69,14 @@ body{
     align-content: center;
     font-size:120%;
 }
-.body1{
-    background-image: url("../Images/groenigijziggroenland.jpg");
-    margin-top:0px;
-    margin-bottom:0;
+.body1 {
+background-image: url("../Images/groenigijziggroenland.jpg");
+   margin:0;
+   padding:0;
+   height:100%;
 }
 .button{ 
+    margin-top:10%;
     color:#7D80DA;
     text-decoration:none;
     background-color:lightblue;
@@ -94,7 +96,7 @@ body{
     padding:5px;
     text-decoration: none;
     display: inline-block;
-    margin-bottom:15%;
+    margin-bottom:5%;
 }
 .li2{
     text-decoration: none;
